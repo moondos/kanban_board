@@ -1,0 +1,40 @@
+.dropdown {
+    position: absolute;
+    top: 57px;
+    
+    transform: translateX(-50%);
+    background-color: white;
+         
+    border-radius: 5px;
+    
+}
+
+.rectangle {
+    position: absolute;
+    top: -5px;
+    left: 85px;
+    height: 11px;
+    width: 11px;
+    background: #ffffff;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.list {
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    width: 140px;
+    margin: 0;
+    
+}
+
+.list_item {
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list_item:hover {
+    background-color: #dedede;
+}

@@ -1,0 +1,24 @@
+.header {
+    background-color: #0067a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1.18;
+
+    color: #ffffff;
+}
+
+.user-menu {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

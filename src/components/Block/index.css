@@ -1,0 +1,22 @@
+.block {
+    padding: 12px 0 15px 12px;
+    width: 24%;
+    background-color: #ebecf0;
+    border-radius: 10px;
+    /* position: relative; */
+    /* z-index: 1; */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* opacity: -1; */
+}
+
+.block_info {
+    margin-right: 12px;
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+

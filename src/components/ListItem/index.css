@@ -1,0 +1,11 @@
+.item {
+    min-height: 35px;
+    margin-top: 15px;
+    padding: 7px 8px;
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* position: relative; */
+}
+

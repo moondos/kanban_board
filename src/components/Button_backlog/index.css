@@ -1,0 +1,16 @@
+.backlog_add {
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background: none;
+    margin-top: 15px;
+    padding: 0;
+    color: #5e6c84;
+    cursor: pointer;
+}
+
+.backlog_add:hover {
+    
+    background-color: #ffffff;
+    border-radius: 5px;
+}
