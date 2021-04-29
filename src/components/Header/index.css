@@ -22,3 +22,15 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 1000px) {
+    .header {
+        padding-top: 10px;
+        justify-content: flex-end;
+        background-color: #0079bf;
+    }
+    .title {
+        display: none;
+    }
+
+}

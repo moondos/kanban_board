@@ -32,7 +32,7 @@ class Block extends React.Component {
                     {block.issues.map((todoStr) => {
                         return (
                         <ListItem
-                            key = {todoStr.id}
+                            
                             todoName = {todoStr.name}
                             
                         />

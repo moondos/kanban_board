@@ -69,11 +69,14 @@ class App extends React.Component {
       },
         ...data.slice(blockId+2),
       ];
-    console.log(newData)
+    // console.log('newData', newData)
   
     this.setState({
         data: newData
+        
       })
+    
+      // console.log('data', data);
   }
 
 

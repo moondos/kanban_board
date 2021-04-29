@@ -10,3 +10,9 @@
 p {
     /* padding-right: 36px; */
 }
+
+@media (max-width: 1000px) {
+    .footer {
+        display: none;
+    }
+}
