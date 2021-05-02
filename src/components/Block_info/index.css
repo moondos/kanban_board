@@ -15,7 +15,12 @@
 .bd_title {
     font-size: 24px;
     color: #000000;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.bd_container {
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
 }
 
 .btn_close {

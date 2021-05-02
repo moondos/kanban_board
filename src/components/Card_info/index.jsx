@@ -22,18 +22,7 @@ class Card_info extends React.Component {
                 <div className="createTime">Created: {card.createTime}</div>
                 <div className="card_body">{card.body}</div>                 
                 
-                <Button
-                    name="Edit"
-                    // onClick = {this.onClickBtn}
-                    customClass = "btn_card"
-
-                />
-                {/* <Button
-                    name="Delete issue"
-                    onClick = {deleteCard}
-                    customClass = "btn_card"
-                /> */}
-
+                               
                 <button
                     className="btn_card"
                     onClick={() => deleteCard(blockId, cardId)}
