@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import arrowDropDown, { ReactComponent } from "../../img/arrow-drop-down.svg";
 
 class Dropdown extends React.Component {
     constructor(props) {

@@ -1,6 +1,5 @@
 import React from 'react';
-import Input from '../Input/index';
-import Button from '../Button/index';
+import { Link } from "react-router-dom";
 import ListItem from '../ListItem/index';
 import Button_backlog from '../Button_backlog/index';
 import Button_dropdown from '../Button_dropdown';
@@ -22,11 +21,14 @@ class Block extends React.Component {
     
 
     render() {
-        const { list } = this.state;
+        
         const { block, addNewCard, prevCards, prevBlockId, onSelect } = this.props;
         return (
             <div className="block">
-                <p>{block.title}</p>
+                <Link className="block_link" to={block.url}>
+                    <p>{block.title}</p>
+                </Link>
+                                
                 <div className="block_info">
                     
                     {block.issues.map((todoStr) => {

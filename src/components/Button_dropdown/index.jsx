@@ -1,8 +1,4 @@
 import React from 'react';
-import Input from '../Input/index';
-import Button from '../Button/index';
-import Block from '../Button/index';
-import ListItem from '../ListItem/index';
 import Dropdown from '../Dropdown/index';
 import addCard_img from "../../img/add-card.svg";
 import './index.css';

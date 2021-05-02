@@ -1,8 +1,6 @@
 import React from 'react';
 import Input from '../Input/index';
 import Button from '../Button/index';
-import Block from '../Button/index';
-import ListItem from '../ListItem/index';
 
 import addCard_img from "../../img/add-card.svg";
 import './index.css';
@@ -20,7 +18,7 @@ class Button_backlog extends React.Component {
     }
 
     onChangeInput = (event) => {
-      // console.log('event', event.target.value);
+      
       this.setState({
         inputValue: event.target.value,
       })
@@ -28,29 +26,16 @@ class Button_backlog extends React.Component {
   
     onClickBtn = () => {
       
-      const {inputValue, todoList, list} = this.state;
-      // // console.log('clicked', inputValue)
+      const {inputValue} = this.state;
+      if (inputValue.trim()) {
+        this.props.addNewCard(inputValue)
 
-      // this.setState({
-      //   todoList: [inputValue, ...todoList],
-      //   inputValue:'',
-      //   list : [inputValue, ...todoList]
-      // })
-
-      this.props.addNewCard(inputValue)
-
-      this.setState({ 
-        inputValue:'',
-        addCard : !this.state.addCard
-      })
-
+        this.setState({ 
+          inputValue:'',
+          addCard : !this.state.addCard
+        })
+      }
       
-      
-      // console.log('todolist', todoList)
-      // console.log('list', list)
-
-      
-
     }
     
     
@@ -78,9 +63,7 @@ class Button_backlog extends React.Component {
                     name="Submit"
                     onClick = {this.onClickBtn}
                   />
-                  
-                  
-                  
+              
                </>   
             )}
                         

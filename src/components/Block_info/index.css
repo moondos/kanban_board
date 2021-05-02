@@ -1,0 +1,38 @@
+.block_detail {
+    max-width: 1200px;
+    width: 98%;
+    margin: 20px auto;
+    padding: 22px 28px;
+    background: #ffffff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+
+.bd_title {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.btn_close {
+    position: absolute;
+    top: 17px;
+    right: 22px;
+    width: 23px;
+    height: 23px;
+    background: url("../../img/close-button.svg") no-repeat center/cover;
+    border: 0;
+}
+
+@media (max-width: 1000px) {
+    .block_detail {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        z-index: 20;
+    }
+}
